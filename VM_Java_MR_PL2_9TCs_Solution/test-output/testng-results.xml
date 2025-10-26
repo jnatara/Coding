@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-13T19:45:55 IST" name="Suite" finished-at="2025-05-13T19:48:17 IST" duration-ms="141586">
+    <groups>
+      <group name="sanity">
+        <method signature="medicalRecord_testcase.verifymedicalRecordModule()[pri:1, instance:testcases.medicalRecord_testcase@778ca8ef]" name="verifymedicalRecordModule" class="testcases.medicalRecord_testcase"/>
+        <method signature="medicalRecord_testcase.verifyMedicalRecordSubModules()[pri:2, instance:testcases.medicalRecord_testcase@778ca8ef]" name="verifyMedicalRecordSubModules" class="testcases.medicalRecord_testcase"/>
+        <method signature="medicalRecord_testcase.verifyMROutpatientComponents()[pri:3, instance:testcases.medicalRecord_testcase@778ca8ef]" name="verifyMROutpatientComponents" class="testcases.medicalRecord_testcase"/>
+        <method signature="medicalRecord_testcase.verifyNavigationBetweenSubmodules()[pri:4, instance:testcases.medicalRecord_testcase@778ca8ef]" name="verifyNavigationBetweenSubmodules" class="testcases.medicalRecord_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-05-13T19:45:55 IST" name="Test" finished-at="2025-05-13T19:48:17 IST" duration-ms="141586">
+      <class name="testcases.medicalRecord_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.medicalRecord_testcase@778ca8ef]" started-at="2025-05-13T19:45:55 IST" name="initBrowser" finished-at="2025-05-13T19:46:19 IST" duration-ms="24418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifymedicalRecordModule()[pri:1, instance:testcases.medicalRecord_testcase@778ca8ef]" started-at="2025-05-13T19:46:19 IST" name="verifymedicalRecordModule" description="1. Login in the healthapp application
+2. Scroll down menu till medicalRecord
+3. Click on the medicalRecord" finished-at="2025-05-13T19:46:55 IST" duration-ms="35139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymedicalRecordModule -->
+        <test-method signature="verifyMedicalRecordSubModules()[pri:2, instance:testcases.medicalRecord_testcase@778ca8ef]" started-at="2025-05-13T19:46:59 IST" name="verifyMedicalRecordSubModules" description="Pre condition: User should be logged in 
+1. Click on the Medical Records Module drop-down arrow2. All sub-modules should be displayed correctly.
+ Expected Sub modules are : MR Outpatient List, MR Inpatient List,  Birth List, Death List, Reports, Emergency Patient List  " finished-at="2025-05-13T19:47:05 IST" duration-ms="5847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMedicalRecordSubModules -->
+        <test-method signature="verifyMROutpatientComponents()[pri:3, instance:testcases.medicalRecord_testcase@778ca8ef]" started-at="2025-05-13T19:47:09 IST" name="verifyMROutpatientComponents" description="Pre condition: User should be logged in and it is on medicalRecord module
+1. Click on the medicalRecords module drop-down arrow 
+2. Click on MR Outpatient section" finished-at="2025-05-13T19:47:37 IST" duration-ms="27557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMROutpatientComponents -->
+        <test-method signature="verifyNavigationBetweenSubmodules()[pri:4, instance:testcases.medicalRecord_testcase@778ca8ef]" started-at="2025-05-13T19:47:41 IST" name="verifyNavigationBetweenSubmodules" description="Pre condition: User should be logged in and it is on Medical Records module
+1. Click on the MR Outpatient  
+2. Click on the Reports
+3. Click on the Birth List
+4. Click on the  Death List
+5. Click on the Emergency Patient List  
+6. Clcik on the MR Inpatient List6. User should navigate to the all section from the MR Outpatient  section and should navigate back to MR Outpatient section " finished-at="2025-05-13T19:48:12 IST" duration-ms="31528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationBetweenSubmodules -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.medicalRecord_testcase@778ca8ef]" started-at="2025-05-13T19:48:16 IST" name="tearDown" finished-at="2025-05-13T19:48:17 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.medicalRecord_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

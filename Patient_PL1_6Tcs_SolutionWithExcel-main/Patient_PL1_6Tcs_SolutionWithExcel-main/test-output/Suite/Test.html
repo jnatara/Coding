@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 24 15:42:11 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>52 seconds (52858 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>sanity </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.patient_testcase.verifyTextboxIsPresentAndValidateEnteredValue()'><b>verifyTextboxIsPresentAndValidateEnteredValue</b><br>Test class: testcases.patient_testcase<br>Test method: On the "Basic Information" form of  "Register Patient" sub module,
+Fill the following textbox which are present inside the  "Basic Information" form.
+Validate the entered values.
+Following textboxes are :
+-> First Name  Textbox
+-> Middle Name Textbox
+-> Last Name Textbox
+-> Age Textbox
+-> Phone Number Textbox
+Note : read & write the data from the JSON </td>
+<td></td>
+<td>1</td>
+<td>testcases.patient_testcase@4a9cc6cb</td></tr>
+<tr>
+<td title='testcases.patient_testcase.verifyAllPresenceOfFieldIfPatientModuleIsPresent()'><b>verifyAllPresenceOfFieldIfPatientModuleIsPresent</b><br>Test class: testcases.patient_testcase<br>Test method: Verify that Patient module is present or not ?
+If Present, then expand the Patient module
+and verify all presence of sub mudules under the patient module.</td>
+<td></td>
+<td>1</td>
+<td>testcases.patient_testcase@4a9cc6cb</td></tr>
+<tr>
+<td title='testcases.patient_testcase.verifyErrorMessage()'><b>verifyErrorMessage</b><br>Test class: testcases.patient_testcase<br>Test method: On the "Patient" Module's "Register Patient" sub module,
+directly clicking the "Register Patient" button
+from the "Basic Information" form
+without filling any information
+and validate the error message
+from "Phone Number" textbox from the Besic information form.
+Error Message : Primary Phone is required</td>
+<td></td>
+<td>6</td>
+<td>testcases.patient_testcase@4a9cc6cb</td></tr>
+<tr>
+<td title='testcases.patient_testcase.verifyPlaceholderNameOfTexbox()'><b>verifyPlaceholderNameOfTexbox</b><br>Test class: testcases.patient_testcase<br>Test method: On the "Patient" Module's "Search Patient" page,
+verify & clicking on the "Search (Minimum 3 Character)" textbox
+and get the Placeholder name of "Search (Minimum 3 Character)" textbox.
+Then verify the Placeholder name is "Search (Minimum 3 Character)".</td>
+<td></td>
+<td>1</td>
+<td>testcases.patient_testcase@4a9cc6cb</td></tr>
+<tr>
+<td title='testcases.patient_testcase.verifyTakeASnapshotButtonIsPresent()'><b>verifyTakeASnapshotButtonIsPresent</b><br>Test class: testcases.patient_testcase<br>Test method: On the "Patient" Module's,
+clicking on "Register Patient" sub module
+and verify that the "+ New Photo" button is present or not ?
+After validation of "+ New Photo" button,
+then click on it.
+Then verify "Take A Snapshot" button is present or not?</td>
+<td></td>
+<td>4</td>
+<td>testcases.patient_testcase@4a9cc6cb</td></tr>
+<tr>
+<td title='testcases.patient_testcase.verifyTitleAndURLOfTheHomePage()'><b>verifyTitleAndURLOfTheHomePage</b><br>Test class: testcases.patient_testcase<br>Test method: * Navigate to the URL.
+* Retrieve Title and URL of the current page.
+* Verify Title & URL: Check if the title  & URL matches the expected title.</td>
+<td></td>
+<td>10</td>
+<td>testcases.patient_testcase@4a9cc6cb</td></tr>
+</table><p>
+</body>
+</html>

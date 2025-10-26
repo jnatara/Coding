@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T15:42:11 IST" name="Suite" finished-at="2025-03-24T15:43:04 IST" duration-ms="52858">
+    <groups>
+      <group name="sanity">
+        <method signature="patient_testcase.verifyTitleAndURLOfTheHomePage()[pri:1, instance:testcases.patient_testcase@4a9cc6cb]" name="verifyTitleAndURLOfTheHomePage" class="testcases.patient_testcase"/>
+        <method signature="patient_testcase.verifyAllPresenceOfFieldIfPatientModuleIsPresent()[pri:2, instance:testcases.patient_testcase@4a9cc6cb]" name="verifyAllPresenceOfFieldIfPatientModuleIsPresent" class="testcases.patient_testcase"/>
+        <method signature="patient_testcase.verifyPlaceholderNameOfTexbox()[pri:3, instance:testcases.patient_testcase@4a9cc6cb]" name="verifyPlaceholderNameOfTexbox" class="testcases.patient_testcase"/>
+        <method signature="patient_testcase.verifyTakeASnapshotButtonIsPresent()[pri:4, instance:testcases.patient_testcase@4a9cc6cb]" name="verifyTakeASnapshotButtonIsPresent" class="testcases.patient_testcase"/>
+        <method signature="patient_testcase.verifyErrorMessage()[pri:5, instance:testcases.patient_testcase@4a9cc6cb]" name="verifyErrorMessage" class="testcases.patient_testcase"/>
+        <method signature="patient_testcase.verifyTextboxIsPresentAndValidateEnteredValue()[pri:6, instance:testcases.patient_testcase@4a9cc6cb]" name="verifyTextboxIsPresentAndValidateEnteredValue" class="testcases.patient_testcase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-24T15:42:11 IST" name="Test" finished-at="2025-03-24T15:43:04 IST" duration-ms="52858">
+      <class name="testcases.patient_testcase">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:11 IST" name="initBrowser" finished-at="2025-03-24T15:42:19 IST" duration-ms="7374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="verifyTitleAndURLOfTheHomePage()[pri:1, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:19 IST" name="verifyTitleAndURLOfTheHomePage" description="* Navigate to the URL.
+* Retrieve Title and URL of the current page.
+* Verify Title &amp; URL: Check if the title  &amp; URL matches the expected title." finished-at="2025-03-24T15:42:29 IST" duration-ms="10704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleAndURLOfTheHomePage -->
+        <test-method signature="verifyAllPresenceOfFieldIfPatientModuleIsPresent()[pri:2, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:33 IST" name="verifyAllPresenceOfFieldIfPatientModuleIsPresent" description="Verify that Patient module is present or not ?
+If Present, then expand the Patient module
+and verify all presence of sub mudules under the patient module." finished-at="2025-03-24T15:42:35 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllPresenceOfFieldIfPatientModuleIsPresent -->
+        <test-method signature="verifyPlaceholderNameOfTexbox()[pri:3, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:38 IST" name="verifyPlaceholderNameOfTexbox" description="On the &quot;Patient&quot; Module&#039;s &quot;Search Patient&quot; page,
+verify &amp; clicking on the &quot;Search (Minimum 3 Character)&quot; textbox
+and get the Placeholder name of &quot;Search (Minimum 3 Character)&quot; textbox.
+Then verify the Placeholder name is &quot;Search (Minimum 3 Character)&quot;." finished-at="2025-03-24T15:42:39 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholderNameOfTexbox -->
+        <test-method signature="verifyTakeASnapshotButtonIsPresent()[pri:4, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:42 IST" name="verifyTakeASnapshotButtonIsPresent" description="On the &quot;Patient&quot; Module&#039;s,
+clicking on &quot;Register Patient&quot; sub module
+and verify that the &quot;+ New Photo&quot; button is present or not ?
+After validation of &quot;+ New Photo&quot; button,
+then click on it.
+Then verify &quot;Take A Snapshot&quot; button is present or not?" finished-at="2025-03-24T15:42:46 IST" duration-ms="4768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTakeASnapshotButtonIsPresent -->
+        <test-method signature="verifyErrorMessage()[pri:5, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:50 IST" name="verifyErrorMessage" description="On the &quot;Patient&quot; Module&#039;s &quot;Register Patient&quot; sub module,
+directly clicking the &quot;Register Patient&quot; button
+from the &quot;Basic Information&quot; form
+without filling any information
+and validate the error message
+from &quot;Phone Number&quot; textbox from the Besic information form.
+Error Message : Primary Phone is required" finished-at="2025-03-24T15:42:56 IST" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessage -->
+        <test-method signature="verifyTextboxIsPresentAndValidateEnteredValue()[pri:6, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:42:59 IST" name="verifyTextboxIsPresentAndValidateEnteredValue" description="On the &quot;Basic Information&quot; form of  &quot;Register Patient&quot; sub module,
+Fill the following textbox which are present inside the  &quot;Basic Information&quot; form.
+Validate the entered values.
+Following textboxes are :
+-&gt; First Name  Textbox
+-&gt; Middle Name Textbox
+-&gt; Last Name Textbox
+-&gt; Age Textbox
+-&gt; Phone Number Textbox
+Note : read &amp; write the data from the JSON " finished-at="2025-03-24T15:43:01 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextboxIsPresentAndValidateEnteredValue -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.patient_testcase@4a9cc6cb]" started-at="2025-03-24T15:43:04 IST" name="tearDown" finished-at="2025-03-24T15:43:04 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.patient_testcase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
